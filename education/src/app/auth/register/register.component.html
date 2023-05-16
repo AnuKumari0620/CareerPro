@@ -1,0 +1,69 @@
+<body>
+  <div class="main">
+  <div class="container">
+    <form (submit)="onRegister(registerForm)" #registerForm="ngForm" *ngIf="!isLoading" class="appointment-form" id="appointment-form">
+      <h1>CAREERPRO<span>.</span></h1>
+      <p>Educational Management System</p>
+
+      <div class="form-row">
+    <div class="form-group col-md-12" style="margin-top: -50px;">
+      <label for="inputEmail4">First Name</label>
+      <input name="first_name" ngModel type="text" #orgnameInput="ngModel" required class="form-control" id="inputEmail4" placeholder="First Name">
+
+    </div>
+    <div class="form-group col-md-12">
+      <label for="inputPassword4">Last Name</label>
+      <input name="last_name" ngModel type="text" #fullnameInput="ngModel" required class="form-control" id="inputPassword4" placeholder="Last Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Email Address</label>
+    <input name="email" ngModel type="email" #emailInput="ngModel" required type="text" class="form-control" id="inputAddress2" placeholder="Email Address">
+  </div>
+
+  <div class="form-group col-md-12">
+    <label for="Designation">Designation</label>
+    <input name="designation" ngModel type="text" #fullnameInput="ngModel" required class="form-control" id="inputPassword4" placeholder="Designation">
+  </div>
+
+  <div class="form-group col-md-12">
+    <label for="inputPassword4">Password</label>
+    <input name="password" ngModel type="text" #fullnameInput="ngModel" required class="form-control" id="inputPassword4" placeholder="Password">
+  </div>
+
+  <div class="form-group">
+    <label for="inputAddress">Contact</label>
+    <input name="mobile" ngModel type="text" #contactInput="ngModel" required type="text" class="form-control" id="inputAddress" placeholder="Contact">
+  </div>
+  <div class="form-row">
+
+    <div class="form-group col-md-12">
+      <label for="inputState" style="color: dimgrey;">Gender</label>
+      <select name="gender" id="gender" ngModel type="text" required class="form-control" placeholder="Gender">
+        <option>Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+
+      </select>
+    </div>
+    <div class="form-group col-md-12">
+      <label for="inputZip">College Name</label>
+      <input name="collegename" ngModel type="text" id="startup" placeholder="College Name" #orgnameInput="ngModel" required  type="text" class="form-control">
+    </div>
+  </div>
+  <br>
+  <!-- <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div> -->
+  <button type="submit" class="btn btn-primary">Register With CAREERPRO</button>
+  <a href="login"><input type="button" class="floated" name="submit" id="submit" class="submit" value="Already have an Account" /></a>
+  <!-- <div class="text"><p>Powered By <a href="https://www.webdevitsolutions.com" target="_blank">WebDev IT Solutions®</a></p></div> -->
+</form>
+
+</div>
+</div>

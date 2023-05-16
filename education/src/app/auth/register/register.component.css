@@ -1,0 +1,141 @@
+/* .container{
+ background-image: #fff;
+    width: 100%;
+    height: 700px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+form {
+  background-image: #fff;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+/* .image {
+    background-image: url("../../../assets/img/reg.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+} */
+
+
+
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+
+/* p{
+  color: #94007a;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: Arial, sans-serif;
+} */
+
+
+body {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #fff;
+  background-image: url("../../../assets/img/reg.avif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-position: center center;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+  margin: 0px;
+
+}
+
+.main {
+  padding: 60px 0;
+  position: relative; }
+
+.container {
+  margin-left: 120px;
+  width: 450px;
+  padding: 30px 20px 10px 20px;
+  background: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px; }
+  button{
+    background-color: #94007a;
+    border: none;
+  }
+
+  button:hover{
+    background-color: green;
+    border: none;
+  }
+  h1 {
+    line-height: 1.8;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    color: #94007a;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase; }
+
+p {
+  margin-top: -25px;
+  font-weight: 700;
+  padding: 0;
+  color: #222;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+   }
+
+  .text p{
+    margin: 0;
+    padding: 0;
+    color: #94007a;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+     }
+
+     input, select, textarea {
+      outline: none;
+      appearance: unset !important;
+      -moz-appearance: unset !important;
+      -webkit-appearance: unset !important;
+      -o-appearance: unset !important;
+      -ms-appearance: unset !important; }
+
+
+
+    input[type=button] {
+      background-color: #009416;
+      color: #fff;
+      height: 35px;
+      border: 2px solid #009416;
+      border-radius: 10px 10px;
+      background-position: center center;
+      font-weight: 400;
+      font-family: Arial, sans-serif;
+      margin: 0px;
+
+    }
+
+    input[type=button]:hover{
+      background-color: #94007a;
+    }
+
+

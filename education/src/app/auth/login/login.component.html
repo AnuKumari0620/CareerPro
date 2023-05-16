@@ -1,0 +1,34 @@
+
+<body>
+
+  <div class="main">
+
+      <div class="container">
+        <form (submit)="onLogin(loginForm)" #loginForm="ngForm" *ngIf="!isLoading">
+              <h1>CAREERPRO<span>.</span></h1>
+              <p>Educational Management System</p>
+
+              <div class="form-group-1" style="margin-top: -40px;">
+                <input matInput name="email" ngModel type="email" placeholder="Email"  required>
+
+                <!-- <input type="email" name="email" id="email" placeholder="Official Email" required /> -->
+                <input matInput name="password" ngModel type="password" placeholder="Password" required>
+                  <!-- <input type="text" name="password" id="password" placeholder="Password" required /> -->
+
+              </div>
+
+              <div class="form-submit">
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Login To CAREERPRO</button>
+                <a routerLink="/register" routerLinkActive="active"><button type="button" class="btn btn-secondary btn-lg btn-block">Don't have an Account</button></a>
+              </div>
+              <br>
+              <!-- <div class="text"><p>Powered By <a href="https://www.webdevitsolutions.com" target="_blank">WebDev IT Solutions®</a></p></div> -->
+
+          </form>
+
+
+      </div>
+
+  </div>
+

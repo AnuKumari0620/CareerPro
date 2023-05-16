@@ -1,0 +1,22 @@
+ .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    background-color: rgb(185, 202, 202);
+    margin: 10px;
+    padding: 20px;
+  }
+  ul.a{
+    list-style-type: circle;
+  }
+ul.b{
+    list-style-type: circle;
+  }
+ul.c{
+    list-style-type: circle;
+  }
+ul.d{
+    list-style-type: circle;
+  }

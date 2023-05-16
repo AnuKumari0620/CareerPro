@@ -1,0 +1,10 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    background-color: rgb(185, 202, 202);
+    margin: 10px;
+    padding: 20px;
+  }

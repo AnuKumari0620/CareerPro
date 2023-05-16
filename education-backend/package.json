@@ -1,0 +1,26 @@
+{
+  "name": "grigrow",
+  "version": "1.0.0",
+  "description": "Software for Farmer",
+  "main": "witsentrypoint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon grigrowstart.js",
+    "start-server": "node grigrowstart.js"
+  },
+  "keywords": [
+    "WebDev",
+    "IT",
+    "Solutions"
+  ],
+  "author": "WebDev IT Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
